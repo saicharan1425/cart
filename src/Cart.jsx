@@ -54,6 +54,7 @@ export const Cart = () => {
             <br/>
             {state.map((item) => { return (
                  <div key={item.id}>
+                    
                 <p>{item.name} - {item.price}</p>
                
             </div>)
